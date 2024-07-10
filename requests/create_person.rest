@@ -7,3 +7,14 @@ content-type: application/json
   "name": "jasons",
   "number": "293-9239"
 }
+
+GET https://phonebook-backend-n2bx.onrender.com/api/persons/ 
+
+POST https://phonebook-backend-n2bx.onrender.com/api/persons/ HTTP/1.1
+content-type: application/json
+
+{ 
+  "name": "maria",
+  "number": "23239"
+}
+
